@@ -1,0 +1,107 @@
+.hero {
+  background-image: url(images/Birmingham-city.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10px 0 300px 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Dancing Script";
+  font-size: large;
+  width: 100%;
+}
+
+#hero {
+  position: relative;
+  text-align: center;
+  color: #fffffe;
+}
+
+#hero h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 5px 5px 20px rgba(235, 205, 12, 0.7);
+}
+
+#main-logo {
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.activity-section {
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 40px 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-bottom: 60px;
+}
+
+.activities {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.activity {
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.activity img {
+  border-radius: 10%;
+  height: 250px;
+  max-height: 250px;
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.activity p {
+  padding: 0 10px;
+}
+
+.Guide-info {
+  background-color: rgb(232, 229, 236);
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  color: #1b4332;
+  border-bottom: 4px solid #c4c5b7;
+  border-top: 4px solid #c4c5b7;
+  margin-bottom: 60px;
+}
+.photo-id {
+  width: 150px;
+  border-radius: 10px;
+  box-shadow: 5px 5px #c6c6c4;
+}
+
+.footer {
+  background-color: rgb(19, 2, 42);
+  text-align: center;
+  p {
+    color: #e6df1a;
+  }
+}
+
+H3 {
+  margin: 25px 50px 25px 50px;
+}
