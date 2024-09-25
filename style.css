@@ -17,6 +17,7 @@
   position: relative;
   text-align: center;
   color: #fffffe;
+  background-color: rgba(39, 2, 60, 0.5);
 }
 
 #hero h1 {
