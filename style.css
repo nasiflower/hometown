@@ -106,3 +106,51 @@ h1 {
 H3 {
   margin: 25px 50px 25px 50px;
 }
+.gallery-section {
+  background-color: rgb(245, 246, 250);
+  margin: 0 auto;
+  padding: 40px 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  text-align: center;
+  color: #1b4332;
+  border-bottom: 4px solid #02063a;
+  border-top: 4px solid #02063a;
+  margin-bottom: 60px;
+  img {
+    max-width: 1200px;
+    height: 400px;
+    width: 50%;
+  }
+  h1 {
+    font-family: "Dancing Script";
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    /*  background: linear-gradient(40deg, #032a57, #6197e9);*/
+  }
+}
+
+button {
+  width: 50px;
+  height: auto;
+  border: transparent;
+  background-color: transparent;
+  padding: 0 10px;
+}
+#btn {
+  span {
+    font-size: 50px;
+    font-weight: 900;
+  }
+  span:hover {
+    color: #e6df1a;
+  }
+}
